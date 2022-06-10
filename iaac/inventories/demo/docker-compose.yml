@@ -32,6 +32,7 @@ services:
       - app_monitoring
     ports:
       - "8080:8080"
+      - "9999:9999"
 
 networks:
   app_monitoring:
